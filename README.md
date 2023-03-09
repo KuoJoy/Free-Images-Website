@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+<img src="https://i.imgur.com/khWvMxc.png" alt="Free images website" width="500">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Free Images Website
+你可以隨意搜尋想要的圖片，並且將它下載下來。
 
-## Available Scripts
+此專案是透過[Create React App](https://github.com/facebook/create-react-app)所開發的圖片網站，結合[pexels API](https://www.pexels.com/api/)的功能，抓取近日的精選相片供使用者瀏覽，亦可讓使用者搜尋想要的圖片並下載。
 
-In the project directory, you can run:
+## Features - 功能列表
+* 首頁有預選的15張圖片
+* 點擊"load more"可再瀏覽更多
+* 提供搜尋欄位，可直接打字搜尋想找的圖片
+* 點擊"download"可下載檔案
 
-### `npm start`
+## Environment Setup - 環境建置
+* [React](https://github.com/facebook/create-react-app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installing - 安裝流程
+1. 開啟終端機(terminal)並複製(clone)此專案至本機電腦
+```javascript
+git clone https://github.com/KuoJoy/Free-Images-Website.git
+```
+2. 在終端機(terminal)中進入此專案資料夾
+```javascript
+cd Free-Images-Website
+```
+3. 在開發模式下運行應用程序
+```javascript
+npm start
+```
+4. 開啟瀏覽器輸入 [http://localhost:3000](http://localhost:3000) 即可進入Free-Images-Website網站
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Using Tools - 使用工具
+* 開發環境 - [Visual Studio Code](https://code.visualstudio.com/)
+* 開發框架 - [React](https://github.com/facebook/create-react-app)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributor - 專案開發人員
+> [Joy Kuo](https://github.com/KuoJoy)
