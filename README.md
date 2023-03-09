@@ -23,11 +23,15 @@ git clone https://github.com/KuoJoy/Free-Images-Website.git
 ```javascript
 cd Free-Images-Website
 ```
-3. 在開發模式下運行應用程序
+3. 創建自己的package-lock.json和node_modules
+```javascript
+npm install
+```
+4. 在開發模式下運行應用程序
 ```javascript
 npm start
 ```
-4. 開啟瀏覽器輸入 [http://localhost:3000](http://localhost:3000) 即可進入Free-Images-Website網站
+5. 開啟瀏覽器輸入 [http://localhost:3000](http://localhost:3000) 即可進入Free-Images-Website網站
 
 ## Using Tools - 使用工具
 * 開發環境 - [Visual Studio Code](https://code.visualstudio.com/)
