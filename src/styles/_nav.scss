@@ -1,0 +1,20 @@
+nav {
+  background-color: #2E659C;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    padding: 0.5rem 0;
+    li {
+      padding: 0.4rem 1rem;
+      transition: all 0.3s;
+      a {
+        font-size: 1.5rem;
+        color: #fff;
+      }
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}

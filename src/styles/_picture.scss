@@ -1,0 +1,58 @@
+.pictures {
+  width: 80%;
+  margin: 0px auto;
+  column-count: 4;
+  // 每欄間隔
+  column-gap: 20px;
+  .picture {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    break-inside: avoid;
+    transition: all 0.3s;
+    & > * {
+      color: #fff;
+      transition: all 0.3s;
+    }
+    &:hover .photographer {
+      opacity: 1;
+      z-index: 1;
+    }    
+    &:hover .download {
+      opacity: 1;
+      z-index: 1;
+    }    
+    .photographer {
+      position: absolute;
+      left: 0.5rem;
+      bottom: 0.5rem;
+      opacity: 0;
+    }
+    .download {
+      position: absolute;
+      right: 0.5rem;
+      bottom: 0.5rem;
+      opacity: 0;
+      a {
+        color: #fff;
+      }
+      &:hover a {
+        color: #9e9e9e
+      }
+    }
+    .imageContainer {
+      overflow: hidden;
+      border-radius: 5px;
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease;
+        &:hover {
+          transform: scale(1.25)
+        }
+      }
+    }
+  }
+}
