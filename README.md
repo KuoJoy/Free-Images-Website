@@ -5,6 +5,8 @@
 
 此專案是透過[Create React App](https://github.com/facebook/create-react-app)所開發的圖片網站，結合[pexels API](https://www.pexels.com/api/)的功能，抓取近日的精選相片供使用者瀏覽，亦可讓使用者搜尋想要的圖片並下載。
 
+![image](https://github.com/KuoJoy/Free-Images-Website/blob/3b251658304505835c9d8e9c282512ea8c33ac07/public/web%20demo.gif)
+
 ## Features - 功能列表
 * 首頁有預選的15張圖片
 * 點擊"load more"可再瀏覽更多
